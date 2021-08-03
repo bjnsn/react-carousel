@@ -20,6 +20,8 @@ export const centeredPlugin = centered;
 export const slidesToScrollPlugin = slidesToScroll;
 export const arrowsPlugin = arrows;
 export const fastSwipePlugin = fastSwipe;
+export * from './state/atoms/carouselAtoms';
+export * from './state/atoms/slideAtoms';
 
 export const Dots = CarouselDots;
 export default Carousel;
